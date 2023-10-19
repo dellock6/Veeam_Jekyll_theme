@@ -7,13 +7,13 @@
   <meta name="author" content="Luca Dell'Oca">
 <title>VBR</title>
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-150279976-1"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ site.ga_tracking }}"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'UA-150279976-1');
+  gtag('config', '{{ site.ga_tracking }}');
 </script>
 </head>
 <body>
